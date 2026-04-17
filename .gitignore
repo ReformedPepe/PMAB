@@ -52,3 +52,57 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+
+## React Native
+## https://github.com/github/gitignore/blob/main/Node.gitignore
+
+# Dependency directories
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+
+# Native builds
+*.orig.*
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# Android
+android/.gradle/
+android/app/build/
+android/build/
+android/local.properties
+android/keystores/debug.keystore
+
+# iOS
+ios/build/
+ios/Pods/
+ios/Podfile.lock
+ios/.xcode.env.local
+
+# Buck
+buck-out/
+.buckd/
+*.keystore
+!android/app/debug.keystore
+
+# Logs
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# dotenv environment variable files
+.env
+.env.*
+!.env.example
+
+# TypeScript cache
+*.tsbuildinfo
