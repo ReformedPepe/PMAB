@@ -67,7 +67,6 @@ web-build/
 
 # Native builds
 *.orig.*
-*.jks
 *.p8
 *.p12
 *.key
@@ -91,7 +90,7 @@ ios/.xcode.env.local
 
 # Buck
 buck-out/
-\.buckd/
+.buckd/
 *.keystore
 !android/app/debug.keystore
 
